@@ -5,7 +5,7 @@ import { users } from "./components/info";
 function App() {
   return (
     <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 h-screen ">
-      <ListUsers x={users} title={"hola,Bienvenidos"} />
+      <ListUsers x={users} title={"hola"} />
     </div>
   );
 }
